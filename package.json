@@ -1,0 +1,22 @@
+{
+  "name": "cypress-praca-domowa-e2e",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AJquality/Cypress-HW-E2E.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AJquality/Cypress-HW-E2E/issues"
+  },
+  "homepage": "https://github.com/AJquality/Cypress-HW-E2E#readme",
+  "devDependencies": {
+    "cypress": "^12.8.1"
+  }
+}
