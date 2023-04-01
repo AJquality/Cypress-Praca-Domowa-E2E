@@ -1,11 +1,18 @@
 /// <reference types="cypress" />
 
+import HomePage from "../pages/HomePage";
+import Login from "../pages/Login";
+
 describe("login", () => {
   it("passes", () => {
-    cy.visit("https://www.edu.goit.global/account/login");
-    cy.get("#user_email").type("user888@gmail.com");
-    cy.get("#user_password").type("1234567890");
-    cy.get(".css-1jphuq5").click();
-    cy.get(".css-7afvtf").click();
+    const homePage = new HomePage();
+    const login = new Login();
+
+    homePage.visitHomePage().visit;
+    login.getUserEmail().type("user888@gmail.com");
+    login.getUserPassword().type("1234567890");
+    login.getLoginButton().click();
+    login.getMenuButton().click();
+    login.getLogoutButton().click();
   });
 });
