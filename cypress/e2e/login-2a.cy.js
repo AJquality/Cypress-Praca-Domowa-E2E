@@ -9,9 +9,9 @@ describe("login", () => {
     const login = new Login();
 
     homePage.visitHomePage().visit;
-    login.getUserEmail().type("testowyqa@qa.team");
-    login.getUserPassword().type("QA!automation-1");
-    login.getLoginButton().click();
+    homePage.getUserEmail().type("testowyqa@qa.team");
+    homePage.getUserPassword().type("QA!automation-1");
+    homePage.getLoginButton().click();
     login.getMenuButton().click();
     login.getLogoutButton2().click();
   });

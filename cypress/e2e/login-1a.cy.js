@@ -9,9 +9,9 @@ describe("login", () => {
     const login = new Login();
 
     homePage.visitHomePage().visit;
-    login.getUserEmail().type("user888@gmail.com");
-    login.getUserPassword().type("1234567890");
-    login.getLoginButton().click();
+    homePage.getUserEmail().type("user888@gmail.com");
+    homePage.getUserPassword().type("1234567890");
+    homePage.getLoginButton().click();
     login.getMenuButton().click();
     login.getLogoutButton().click();
   });

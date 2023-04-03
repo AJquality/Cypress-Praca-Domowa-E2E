@@ -1,13 +1,5 @@
 class Login {
-  getUserEmail() {
-    return cy.get("#user_email");
-  }
-  getUserPassword() {
-    return cy.get("#user_password");
-  }
-  getLoginButton() {
-    return cy.get(".css-1jphuq5");
-  }
+  
   getMenuButton() {
     return cy.get(".css-7afvtf");
   }
