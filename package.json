@@ -17,6 +17,10 @@
   },
   "homepage": "https://github.com/AJquality/Cypress-HW-E2E#readme",
   "devDependencies": {
-    "cypress": "^12.8.1"
+    "cypress": "^12.11.0"
+  },
+  "dependencies": {
+    "@badeball/cypress-cucumber-preprocessor": "^16.0.3",
+    "@cypress/browserify-preprocessor": "^3.0.2"
   }
 }

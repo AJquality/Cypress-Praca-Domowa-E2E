@@ -1,5 +1,4 @@
 class Login {
-  
   getMenuButton() {
     return cy.get(".css-7afvtf");
   }
