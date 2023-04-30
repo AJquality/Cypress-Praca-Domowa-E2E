@@ -6,6 +6,6 @@ Feature: Buy Product
 
     Given I am logged in to the application
     And I searched for a product
-    When I populated all fields with valid 
+    When I populated all fields with valid information
     And I finalized the transaction
     Then I validate the purchase through email
