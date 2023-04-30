@@ -1,7 +1,7 @@
 /// <reference types="cypress" />
 
-import HomePage from "../pages/HomePage";
-import Login from "../pages/Login";
+import HomePage from "../../pages/HomePage";
+import Login from "../../pages/Login";
 
 describe("login", () => {
   it("passes", () => {
